@@ -34,8 +34,10 @@ var newReleases = [
 		}
 	],
 	videoAndTitlePairs = [];
- var newItem = newReleases.map(function(titlePair){
+ var newItem = newReleases.map(titlePair => {
    return {id: titlePair.id, title: titlePair.title};
    });
 
  console.log(newItem);
+
+ 
