@@ -38,5 +38,4 @@ var newReleases = [
    return {id: titlePair.id, title: titlePair.title};
    });
 
-videoAndTitlePairs.push(newItem);
- console.log(videoAndTitlePairs);
+ console.log(newItem);
